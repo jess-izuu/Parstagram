@@ -11,6 +11,7 @@ import Parse
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    
     var posts = [PFObject]()
     override func viewDidLoad() {
         super.viewDidLoad()
