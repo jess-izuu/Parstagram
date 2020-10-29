@@ -24,7 +24,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
         Parse.initialize(with: parseConfig)
         
-        // --- end copy
 
         return true
     }
